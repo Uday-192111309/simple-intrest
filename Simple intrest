@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int p,y,c,i,a;
+cout<<"enter the principle amount => ";
+cin>>p;
+cout<<"\nenter the no of years => ";
+cin>>y;
+cout<<"\n1.senior citizen\n2.not senior citizen";
+cout<<"\n enter the choise => ";
+cin>>c;
+switch(c)
+{
